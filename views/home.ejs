@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylrsheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<head>
+
+<style>
+*{padding: 0%;
+margin: 0%;}
+.about{
+background-color: rgba(0,0,0,0.6);
+width:58%;
+margin-left: 20%;
+animation: floti 3s ease-in-out;
+padding: 1%;
+margin-top: 0.5%;
+}
+.in{background-color: rgba(225,225,225,0.4);
+
+color: black;
+width: 98.5%;
+padding: 0.5%;
+text-align: center;
+font-family: lobster;
+font-size: 21px;
+}
+
+.imgi{
+  background-image: url('him.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  margin-left: 20%;
+  height: 600px;
+  z-index: 2;
+  position: static;
+  margin-top: 5%;
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+  animation: flotz 3s ease-in-out
+
+
+}
+
+.wrap{height: 20px;}
+.top{font-family: lobster;
+font-size: 60px;
+text-align: center;
+padding-top: 0.7%;
+padding-bottom: 0.7%;
+box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+width: 100%;
+color: black;
+text-shadow: 2px 2px #ffffff;
+animation: floatzi 3s ease-in-out}
+
+
+body{background-image: url('bac.jpg');
+background-size: cover;
+background-repeat: no-repeat;}
+  /* For tablets & smart phones */
+
+  /* For smartphones */
+  @media (max-width: 480px) {
+    .wrap{height: 50px;}
+    .top{font-family: lobster;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px #ffffff;
+    animation: float 3s ease-in-out}
+    .imgi{background-image: url('him.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin-left: 5%;
+    height: 200px;
+    z-index: 2;
+    position: static;
+    margin-top: 5%;
+    box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+    animation: flot 3s ease-in-out}
+    .about{
+    background-color: rgba(0,0,0,0.6);
+    width:90%;
+    margin-left: 1%;
+    animation: floti 3s ease-in-out;
+    padding: 4%;
+    margin-top: 10%;
+    }
+    .in{background-color: rgba(225,225,225,0.4);
+font-size: 16px;
+    color: black;
+    width: 94%;
+    padding: 3%;
+    text-align: center;
+    font-family: lobster;
+    }
+
+  }
+
+  /* For smaller displays like laptops */
+  @media (min-width: 768px) and (max-width: 979px) {
+    .wrap{height: 50px;}
+    .top{font-family: lobster;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px #ffffff;
+    animation: float 3s ease-in-out}
+    .imgi{background-image: url('him.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin-left: 5%;
+    height: 200px;
+    z-index: 2;
+    position: static;
+    margin-top: 8%;
+    box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+    animation: flot 3s ease-in-out}
+    .about{
+    background-color: rgba(0,0,0,0.6);
+    width:90%;
+    margin-left: 1%;
+    animation: floti 3s ease-in-out;
+    padding: 4%;
+    margin-top: 10%;
+    }
+    .in{background-color: rgba(225,225,225,0.4);
+font-size: 16px;
+    color: black;
+    width: 94%;
+    padding: 3%;
+    text-align: center;
+    font-family: lobster;
+    }
+}
+
+  /* For larger displays */
+  @media (min-width: 1200px) {
+
+  }
+
+
+@media screen and (max-width: 600px) {
+  .wrap{height: 50px;}
+  .top{font-family: lobster;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  width: 100%;
+  color: black;
+  text-shadow: 2px 2px #ffffff;
+  animation: float 3s ease-in-out}
+  .imgi{background-image: url('him.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin-left: 5%;
+  height: 200px;
+  z-index: 2;
+  position: static;
+  margin-top: 8%;
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+  animation: flot 3s ease-in-out}
+  .about{
+  background-color: rgba(0,0,0,0.6);
+  width:90%;
+  margin-left: 1%;
+  animation: floti 3s ease-in-out;
+  padding: 4%;
+  margin-top: 10%;
+  }
+  .in{background-color: rgba(225,225,225,0.4);
+
+  color: black;
+  width: 94%;
+  padding: 3%;
+  text-align: center;
+  font-family: lobster;
+  font-size: 16px;
+  }
+
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(-20px);
+    width:0px;
+    font-size: 0px;
+    margin-left: 50%;
+
+	}
+
+	100% {
+margin-left: 0%;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+    width:100%;
+    font-size:40px;
+	}
+}
+@keyframes floatzi {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(-20px);
+    width:0px;
+    font-size: 0px;
+    margin-left: 50%;
+
+	}
+
+	100% {
+margin-left: 0%;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+    width:100%;
+    font-size:60px;
+	}
+}
+
+@keyframes flot {
+	0% {
+		box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(-20px);
+    width:0px;
+    font-size: 0px;
+    margin-left: 50%;
+
+	}
+
+	100% {
+margin-left: 5%;
+    box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+    width:90%;
+    font-size:40px;
+	}
+}
+
+@keyframes flotz {
+	0% {
+		box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(-20px);
+    width:0px;
+    font-size: 0px;
+    margin-left: 50%;
+
+	}
+
+	100% {
+margin-left: 20%;
+    box-shadow: 0 15px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+    width:60%;
+    font-size:40px;
+	}
+}
+
+
+@keyframes floti {
+  0% {opacity: 0.4;
+	}
+
+	100% {
+opacity: 1;}
+
+}
+
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+
+<div class="top">
+  Pallab Choudhury
+
+</div>
+  </div>
+<div class="imgi">
+</div>
+<div class="about">
+  <div class="in">
+  <p>  I am one of you.. and I am here for all of you</p>
+  <br>  <p>
+    I do and will put all my efforts in my work </p><p>
+    <br>and call for some INCREDIBLY PRODUCTIVE STEPS
+  </p>  KINDLY VOTE FOR ME.
+  </div>
+</div>
+</body>
+</html>
